@@ -1,0 +1,17 @@
+{
+  "name": "guitar-shop",
+  "version": "1.0.0",
+  "description": "the best",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./back/server.js"
+  },
+  "keywords": [],
+  "author": "carmel-cohen",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
+}
