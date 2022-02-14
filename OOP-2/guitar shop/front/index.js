@@ -62,6 +62,7 @@ function createElement(
   }
   return element;
 }
+
 const postChoice = (event) => {
   if (event.target.localName !== "input") return;
   guitarType = event.target.value;

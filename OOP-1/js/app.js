@@ -123,6 +123,6 @@ class MakeVip {
 // manager - oprating the class.
 
 data.forEach((person) => {
-  let instanse = new MakeVip(person.name, person.worth, person.image);
-  instanse.render();
+  let instance = new MakeVip(person.name, person.worth, person.image);
+  instance.render();
 });

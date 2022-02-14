@@ -8,7 +8,7 @@ class ClassicGuitar {
     this.#id;
   }
 
-  #id = Math.floor((Date.now() - 1635320000000) / 100);
+  #id = Math.floor((Date.now() - 1644840000000) / 100);
 
   play() {
     this.price *= 0.9;
